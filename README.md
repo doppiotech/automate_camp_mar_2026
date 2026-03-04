@@ -13,7 +13,6 @@ Tee
 Kianureif
 
 test
-=======
 champ eiei
 
 
@@ -33,10 +32,7 @@ PIm
 Kunanon
 
 
-<<<<<<< HEAD
 chaowat_GG commit
->>>>>>> 7ae7e0d9223dc2f66b830acf0b926fb6d8877a92
-=======
 
 
 

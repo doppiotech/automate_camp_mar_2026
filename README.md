@@ -13,7 +13,7 @@ Tee
 Kianureif
 
 test
-=======
+
 champ eiei
 
 
@@ -33,10 +33,9 @@ PIm
 Kunanon
 
 
-<<<<<<< HEAD
+
 chaowat_GG commit
->>>>>>> 7ae7e0d9223dc2f66b830acf0b926fb6d8877a92
-=======
+
 
 
 
@@ -55,24 +54,20 @@ Aoey
 
 
 TAN999999999999999999999
+
 PP1234
 
-
-
-
-
-
-
-
-
 Nutthida
-<<<<<<< HEAD
->>>>>>> 3f0886fd30a4d0bc0b8f4b42c8a09886879d4a84
- Pakarang
-=======
 
->>>>>>> 3f0886fd30a4d0bc0b8f4b42c8a09886879d4a84
+ Pakarang
 
 
 Witidtayapond
->>>>>>> 3ca0cd10dfc8ba6a49b54ae5581b970689da607b
+
+
+ Preaw
+
+
+
+Witidtayapond
+

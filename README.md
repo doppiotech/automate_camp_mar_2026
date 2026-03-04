@@ -31,6 +31,7 @@ test
 #หมอลำ
 
 Kianureif
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 Thanipat
 
@@ -52,9 +53,10 @@ wolves 2 - 1 liverpool
 Liverpool 7-0 Manchester United
 filmsong
 
-stang
 
-hi
+
+
+
 
 HEAD
 NTK
@@ -73,9 +75,9 @@ master
 Kunanon
 
 
-chaowat_GG commit
+knn
 
-สวยมาก แก้ไข จาก สาขา ราชเทวี filmsong
+
  HEAD
 HEAD
 chaowat_GG commit
@@ -89,22 +91,20 @@ chaowat_GG commit
 
 
 
-Shiroooeve
+
 
 ABC Commit by chaowat
 
 
-Nitchisa
 
 
-Aoey
 
 
 
 
 TAN999999999999999999999
 
-PP125364545665
+PP1234
 
 Sarawut K.
 
@@ -115,6 +115,9 @@ Sarawut K.
 
 
 Nutthida
+<<<<<<< HEAD
+>>>>>>> 275a34e96eab6fe3feb76fb15afab5545ab59ca1
+=======
 HEAD
 HEAD
 
@@ -139,6 +142,7 @@ Witidtayapond
 
 Witidtayapond
 
+>>>>>>> master
 
 
 

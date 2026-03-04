@@ -40,7 +40,7 @@ champ eiei
 wolves 2 - 1 liverpool
 wolves 2 - 1 liverpool
 wolves 2 - 1 liverpool
-
+Liverpool 7-0 Manchester United
 filmsong
 
 stang
@@ -132,15 +132,3 @@ Witidtayapond
 Witidtayapond
 
 
-Liverpool 7-0 Manchester United
-Liverpool 7-0 Manchester United
-Liverpool 7-0 Manchester United
-Liverpool 7-0 Manchester United
-Liverpool 7-0 Manchester United
-Liverpool 7-0 Manchester United
-Liverpool 7-0 Manchester United
-Liverpool 7-0 Manchester United
-Liverpool 7-0 Manchester United
-Liverpool 7-0 Manchester United
-Liverpool 7-0 Manchester United
-Liverpool 7-0 Manchester United

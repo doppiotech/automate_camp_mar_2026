@@ -48,28 +48,22 @@ filmsong
 
 
 
-<<<<<<< HEAD
 
 
 
-=======
 HEAD
 NTK
 
 Ramin yadong
 f2f276cab6e991fb849d4e35008c4aed6b69ecd6
->>>>>>> master
 
 PIm
 
-fffffffff
+
 
 knn
 
 
-chaowat_GG commit
-
-สวยมาก แก้ไข จาก สาขา ราชเทวี filmsong
  HEAD
 HEAD
 chaowat_GG commit
@@ -92,19 +86,11 @@ ABC Commit by chaowat
 
 
 
-<<<<<<< HEAD
 
 
-=======
 TAN999999999999999999999
 
-<<<<<<< HEAD
 PP1234
->>>>>>> master
-
-=======
-PP125364545665
->>>>>>> master
 
 Sarawut K.
 
@@ -142,14 +128,4 @@ Witidtayapond
 
 Witidtayapond
 
-<<<<<<< HEAD
->>>>>>> master
-=======
-
-
-
-Patdarin new
-Witidtayapond
-
-jinnawat
 >>>>>>> master

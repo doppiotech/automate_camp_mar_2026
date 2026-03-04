@@ -13,7 +13,6 @@ KK
 test
 
 หยอกๆๆๆๆๆๆๆๆ
-#SAVE อาโหน่ง #SAVE อาโหน่ง #SAVE อาโหน่ง #SAVE อาโหน่ง #SAVE อาโหน่ง
 
 #SAVE อาโหน่ง #SAVE อาโหน่ง #SAVE อาโหน่ง #SAVE อาโหน่ง #SAVE อาโหน่ง
 #SAVE อาโหน่ง #SAVE อาโหน่ง #SAVE อาโหน่ง #SAVE อาโหน่ง #SAVE อาโหน่ง

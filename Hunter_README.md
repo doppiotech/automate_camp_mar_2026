@@ -1,26 +1,6 @@
 # automate_camp_2026
 
-KK
 
-Kianureif
-
-Thanipat
-
-something
-
-Tee
-
-Kianureif
-
-test
-
-champ eiei
-
-man
-
-filmsong
-
-stang
 
 hi
 

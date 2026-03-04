@@ -1,11 +1,10 @@
 # automate_camp_2026
-<<<<<<< HEAD
 
 KK
-=======
 
 Kianureif
 
+Thanipat
 
 something
 
@@ -16,13 +15,12 @@ Kianureif
 test
 =======
 champ eiei
->>>>>>> 275a34e96eab6fe3feb76fb15afab5545ab59ca1
 
 
 
 filmsong
 
-
+stang
 
 
 
@@ -53,7 +51,7 @@ ABC Commit by chaowat
 
 
 
-
+pmpmpmpmp88888888888888888
 
 
 
@@ -64,10 +62,14 @@ ABC Commit by chaowat
 
 
 Nutthida
->>>>>>> 275a34e96eab6fe3feb76fb15afab5545ab59ca1
+
+
+
+
 
 
 
 
 
 cxvodpoopip
+

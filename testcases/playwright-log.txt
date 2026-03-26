@@ -1,0 +1,101 @@
+{"level":30,"time":"2026-03-26T04:20:30.781Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Listening on 127.0.0.1:65004"}
+{"level":30,"time":"2026-03-26T04:20:31.861Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-26T04:20:34.706Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-26T04:20:34.708Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-26T04:20:34.708Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-26T04:20:34.722Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-26T04:20:34.722Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-26T04:20:34.722Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@985fbf7b3f3e4a66c96c34fce6ad0fd6\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=29bbbe10-3ee1-4e0a-a96f-b36c32266077\"}"}
+{"level":30,"time":"2026-03-26T04:20:34.722Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Trace file: "}
+{"level":30,"time":"2026-03-26T04:20:34.747Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Setting default timeout for context context=d9d96387-8dee-47fe-9921-212e5222b561 to 10000"}
+{"level":30,"time":"2026-03-26T04:20:34.747Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Changed active context: context=d9d96387-8dee-47fe-9921-212e5222b561"}
+{"level":30,"time":"2026-03-26T04:20:34.747Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-26T04:20:34.761Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-26T04:20:34.761Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@985fbf7b3f3e4a66c96c34fce6ad0fd6\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=d9d96387-8dee-47fe-9921-212e5222b561\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@661b28fba494212b9f66c22ec1276bdf\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=29bbbe10-3ee1-4e0a-a96f-b36c32266077\"}"}
+{"level":30,"time":"2026-03-26T04:20:36.313Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-26T04:20:36.314Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-26T04:20:36.511Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-26T04:20:36.537Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T04:20:36.537Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=#btn-account in page."}
+{"level":30,"time":"2026-03-26T04:20:37.164Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T04:20:37.175Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T04:20:37.175Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=a[href=\"/signin\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:37.325Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T04:20:37.330Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T04:20:37.330Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=a:text-is(\"Create account\") in page."}
+{"level":30,"time":"2026-03-26T04:20:37.464Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T04:20:37.487Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-26T04:20:37.487Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=input[placeholder=\"Full Name\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:37.563Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-26T04:20:37.571Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-26T04:20:37.571Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=input[placeholder=\"0XXXXXXXXX\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:37.647Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-26T04:20:37.651Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-26T04:20:37.651Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=input[type=\"email\"][inputmode=\"email\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:37.659Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-26T04:20:37.666Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-26T04:20:37.666Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=div[class=\"relative mb-1\"] > input[type=\"password\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:37.677Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-26T04:20:37.682Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-26T04:20:37.682Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=div[class=\"relative\"] > input[type=\"password\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:37.687Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-26T04:20:37.690Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T04:20:37.690Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=#btn-signup in page."}
+{"level":30,"time":"2026-03-26T04:20:37.730Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T04:20:37.733Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-26T04:20:37.733Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=span[aria-label=\"nav-span-1\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:37.736Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-26T04:20:37.741Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-26T04:20:37.741Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=#nav-search-input in page."}
+{"level":30,"time":"2026-03-26T04:20:37.751Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-26T04:20:37.755Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-26T04:20:37.755Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[data-testid^=\"nav-search-item-\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:38.042Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-26T04:20:38.044Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T04:20:38.044Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[data-testid^=\"nav-search-item-\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:38.172Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T04:20:38.177Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-26T04:20:38.177Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"productdetail-stock\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:38.299Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Retrieved text for element css=[data-testid=\"productdetail-stock\"] containing Available: 3198"}
+{"level":30,"time":"2026-03-26T04:20:38.299Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-26T04:20:38.309Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T04:20:38.309Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=button[type=\"button\"][aria-label=\"Increase quantity\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:38.373Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T04:20:38.379Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-03-26T04:20:38.379Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=#qty-input in page."}
+{"level":30,"time":"2026-03-26T04:20:38.388Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Retrieved dom property for element css=#qty-input containing 6"}
+{"level":30,"time":"2026-03-26T04:20:38.388Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-03-26T04:20:38.398Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-26T04:20:38.398Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=h1[data-testid=\"productdetail-title\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:38.423Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Retrieved text for element css=h1[data-testid=\"productdetail-title\"] containing Ceramic Mug\nHome"}
+{"level":30,"time":"2026-03-26T04:20:38.423Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-26T04:20:38.430Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-26T04:20:38.430Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"productdetail-stock\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:38.438Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Retrieved text for element css=[data-testid=\"productdetail-stock\"] containing Available: 3198"}
+{"level":30,"time":"2026-03-26T04:20:38.438Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-26T04:20:38.443Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-26T04:20:38.443Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=span:text-is(\"Total (incl. VAT)\") + span in page."}
+{"level":30,"time":"2026-03-26T04:20:38.454Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Retrieved text for element css=span:text-is(\"Total (incl. VAT)\") + span containing THB 546.00"}
+{"level":30,"time":"2026-03-26T04:20:38.454Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-26T04:20:38.463Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-26T04:20:38.463Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"productdetail-stock\"] in page."}
+{"level":30,"time":"2026-03-26T04:20:38.472Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Retrieved text for element css=[data-testid=\"productdetail-stock\"] containing Available: 3198"}
+{"level":30,"time":"2026-03-26T04:20:38.472Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-26T04:20:38.480Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T04:20:38.490Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T04:20:38.495Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T04:20:38.497Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T04:20:38.499Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T04:20:38.500Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T04:20:38.503Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T04:20:38.504Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T04:20:38.506Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Changed active context: context=d9d96387-8dee-47fe-9921-212e5222b561"}
+{"level":30,"time":"2026-03-26T04:20:38.506Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Changing current active page: page=90759601-b3e2-4d7a-bc99-77762ff3602f"}
+{"level":30,"time":"2026-03-26T04:20:38.506Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-26T04:20:38.521Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-26T04:20:38.640Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Removed page=9f0ebb76-8bef-492f-9dcb-16ad6fe549b5 from context=d9d96387-8dee-47fe-9921-212e5222b561 page stack"}
+{"level":30,"time":"2026-03-26T04:20:38.687Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-26T04:20:38.694Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T04:20:38.694Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T04:20:38.804Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-26T04:20:39.010Z","pid":39015,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}

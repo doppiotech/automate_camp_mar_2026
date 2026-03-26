@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.11.13 on darwin)" generated="2026-03-26T11:20:29.245973" rpa="false" schemaversion="5">
+<suite id="s1" name="TC 001" source="/Users/Kongphop-Doppio/Desktop/Doppio/Traning2026/Automation/Project_Structure_Assignment1/testcases/TC_001.robot">
+<test id="s1-t1" name="Open website" line="6">
+<kw name="Generate random email" owner="common">
+<kw name="Generate Random String" owner="String">
+<msg time="2026-03-26T11:20:29.637340" level="INFO">${random_string} = YVxLTNme</msg>
+<var>${random_string}</var>
+<arg>8</arg>
+<arg>[LETTERS]</arg>
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<status status="PASS" start="2026-03-26T11:20:29.636900" elapsed="0.000478"/>
+</kw>
+<return>
+<value>${random_string}@mail.com</value>
+<status status="PASS" start="2026-03-26T11:20:29.637473" elapsed="0.000095"/>
+</return>
+<msg time="2026-03-26T11:20:29.637701" level="INFO">${random_email} = YVxLTNme@mail.com</msg>
+<var>${random_email}</var>
+<status status="PASS" start="2026-03-26T11:20:29.635593" elapsed="0.002134"/>
+</kw>
+<kw name="Open browser" owner="common">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-26T11:20:29.640000" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/Kongphop-Doppio/Desktop/Doppio/Traning2026/Automation/Project_Structure_Assignment1/testcases/browser/traces/temp/b916cb84-e366-4c0b-b146-e4edccc209ad"}</msg>
+<msg time="2026-03-26T11:20:29.752544" level="INFO">Starting Browser process /Users/Kongphop-Doppio/.pyenv/versions/3.11.13/lib/python3.11/site-packages/Browser/wrapper/index.js using at 127.0.0.1:65004</msg>
+<msg time="2026-03-26T11:20:34.711889" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/Kongphop-Doppio/Desktop/Doppio/Traning2026/Automation/Project_Structure_Assignment1/testcases/browser/traces/temp/b916cb84-e366-4c0b-b146-e4edccc209ad"}</msg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-26T11:20:29.638897" elapsed="5.074646"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-03-26T11:20:34.719788" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2026-03-26T11:20:34.749227" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-26T11:20:34.749317" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-03-26T11:20:34.715869" elapsed="0.033537"/>
+</kw>
+<kw name="Set Browser Timeout" owner="Browser">
+<arg>20s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2026-03-26T11:20:34.749656" elapsed="0.008567"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-26T11:20:36.520716" level="INFO">Successfully initialized new page object and opened url: http://192.8.8.124:8080</msg>
+<arg>${WEBSITE_URL}</arg>
+<arg>wait_until=domcontentloaded</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-26T11:20:34.758730" elapsed="1.764372"/>
+</kw>
+<status status="PASS" start="2026-03-26T11:20:29.638297" elapsed="6.885726"/>
+</kw>
+<kw name="Click profile icon" owner="nav_bar_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T11:20:36.532383" level="INFO">Clicks the element 'css=#btn-account'.</msg>
+<arg>${nav_bar_locator.btn_account}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:36.528686" elapsed="0.638877"/>
+</kw>
+<status status="PASS" start="2026-03-26T11:20:36.526599" elapsed="0.641375"/>
+</kw>
+<kw name="Click Sign In button" owner="nav_bar_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T11:20:37.171645" level="INFO">Clicks the element 'css=a[href="/signin"]'.</msg>
+<arg>${nav_bar_locator.btn_signin}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:37.170815" elapsed="0.155909"/>
+</kw>
+<status status="PASS" start="2026-03-26T11:20:37.168284" elapsed="0.158589"/>
+</kw>
+<kw name="Click create account button" owner="sign_in_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T11:20:37.328654" level="INFO">Clicks the element 'css=a:text-is("Create account")'.</msg>
+<arg>${sign_in_locator.btn_create_account}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:37.327661" elapsed="0.138233"/>
+</kw>
+<status status="PASS" start="2026-03-26T11:20:37.327271" elapsed="0.138771"/>
+</kw>
+<kw name="Input all field in create account form" owner="create_account_feature">
+<kw name="Fill Fullname" owner="sign_up_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-26T11:20:37.474553" level="INFO">Fills the text 'Kongphop Sunitnantakarn' in the given field.</msg>
+<arg>${sign_up.fullname}</arg>
+<arg>${Fullname}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:37.472024" elapsed="0.094548"/>
+</kw>
+<arg>${fullname}</arg>
+<status status="PASS" start="2026-03-26T11:20:37.471583" elapsed="0.096240"/>
+</kw>
+<kw name="Fill Mobile" owner="sign_up_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-26T11:20:37.569861" level="INFO">Fills the text '0812345678' in the given field.</msg>
+<arg>${sign_up.mobile}</arg>
+<arg>${Mobile}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:37.569157" elapsed="0.079558"/>
+</kw>
+<arg>${phone_number}</arg>
+<status status="PASS" start="2026-03-26T11:20:37.568532" elapsed="0.080310"/>
+</kw>
+<kw name="Fill Email" owner="sign_up_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-26T11:20:37.649759" level="INFO">Fills the text 'YVxLTNme@mail.com' in the given field.</msg>
+<arg>${sign_up.email}</arg>
+<arg>${Email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:37.649380" elapsed="0.012225"/>
+</kw>
+<arg>${email}</arg>
+<status status="PASS" start="2026-03-26T11:20:37.649044" elapsed="0.012771"/>
+</kw>
+<kw name="Fill Password" owner="sign_up_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-26T11:20:37.665065" level="INFO">Fills the text 'Dop112233' in the given field.</msg>
+<arg>${sign_up.password}</arg>
+<arg>${Password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:37.664297" elapsed="0.013910"/>
+</kw>
+<arg>${password}</arg>
+<status status="PASS" start="2026-03-26T11:20:37.662274" elapsed="0.016098"/>
+</kw>
+<kw name="Fill Confirm Password" owner="sign_up_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-26T11:20:37.679870" level="INFO">Fills the text 'Dop112233' in the given field.</msg>
+<arg>${sign_up.confirm_password}</arg>
+<arg>${ConfirmPassword}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:37.679035" elapsed="0.008725"/>
+</kw>
+<arg>${confirm_password}</arg>
+<status status="PASS" start="2026-03-26T11:20:37.678620" elapsed="0.009254"/>
+</kw>
+<arg>fullname=${TC_001.Fullname}</arg>
+<arg>phone_number=${TC_001.Mobile}</arg>
+<arg>email=${random_email}</arg>
+<arg>password=${TC_001.Password}</arg>
+<arg>confirm_password=${TC_001.ConfirmPassword}</arg>
+<doc>input fullname, phone number, email, password and confirm password in create account form</doc>
+<status status="PASS" start="2026-03-26T11:20:37.467682" elapsed="0.220247"/>
+</kw>
+<kw name="Click Create Account button" owner="sign_up_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T11:20:37.689032" level="INFO">Clicks the element 'css=#btn-signup'.</msg>
+<arg>${sign_up.create_account_button}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:37.688537" elapsed="0.043087"/>
+</kw>
+<status status="PASS" start="2026-03-26T11:20:37.688217" elapsed="0.043524"/>
+</kw>
+<kw name="Verify account" owner="nav_bar_page">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-26T11:20:37.737529" level="INFO">Waited for Element with selector css=span[aria-label="nav-span-1"] at state visible</msg>
+<arg>${nav_bar_locator.account_email}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-26T11:20:37.732303" elapsed="0.005463"/>
+</kw>
+<status status="PASS" start="2026-03-26T11:20:37.731975" elapsed="0.006102"/>
+</kw>
+<kw name="Fill product name to search" owner="nav_bar_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-26T11:20:37.739745" level="INFO">Fills the text 'Ceramic Mug' in the given field.</msg>
+<arg>${nav_bar_locator.txt_search}</arg>
+<arg>${Product}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:37.739379" elapsed="0.012790"/>
+</kw>
+<arg>${TC_001.Product}</arg>
+<status status="PASS" start="2026-03-26T11:20:37.738547" elapsed="0.013746"/>
+</kw>
+<kw name="Click search suggestion" owner="nav_bar_page">
+<kw name="Click when element for ready" owner="common">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-26T11:20:38.042978" level="INFO">Waited for Element with selector css=[data-testid^="nav-search-item-"] at state visible</msg>
+<arg>${locator}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-26T11:20:37.753416" elapsed="0.289698"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T11:20:38.043823" level="INFO">Clicks the element 'css=[data-testid^="nav-search-item-"]'.</msg>
+<arg>${locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.043294" elapsed="0.130398"/>
+</kw>
+<arg>locator=${nav_bar_locator.search_suggestion}</arg>
+<status status="PASS" start="2026-03-26T11:20:37.752933" elapsed="0.420907"/>
+</kw>
+<status status="PASS" start="2026-03-26T11:20:37.752559" elapsed="0.421338"/>
+</kw>
+<kw name="Verify Stock" owner="product_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-26T11:20:38.299949" level="INFO">Text: 'Available: 3198'</msg>
+<msg time="2026-03-26T11:20:38.300126" level="INFO">${text_product_stock} = Available: 3198</msg>
+<var>${text_product_stock}</var>
+<arg>${product_locator.product_stock}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.174664" elapsed="0.125490"/>
+</kw>
+<kw name="Fetch From Right" owner="String">
+<msg time="2026-03-26T11:20:38.300747" level="INFO">${stock} = 3198</msg>
+<var>${stock}</var>
+<arg>${text_product_stock}</arg>
+<arg>marker=${SPACE}</arg>
+<doc>Returns contents of the ``string`` after the last occurrence of ``marker``.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.300383" elapsed="0.000390"/>
+</kw>
+<return>
+<value>${stock}</value>
+<status status="PASS" start="2026-03-26T11:20:38.300843" elapsed="0.000144"/>
+</return>
+<msg time="2026-03-26T11:20:38.301128" level="INFO">${stock} = 3198</msg>
+<var>${stock}</var>
+<status status="PASS" start="2026-03-26T11:20:38.174230" elapsed="0.126921"/>
+</kw>
+<kw name="Increase Quantity" owner="product_page">
+<if>
+<branch type="IF" condition="&quot;${stock_int}&quot; &lt;= &quot;3500&quot;">
+<kw name="Click With Options" owner="Browser">
+<msg time="2026-03-26T11:20:38.307227" level="INFO">Clicks the element 'css=button[type="button"][aria-label="Increase quantity"]'.</msg>
+<arg>${product_locator.btn_increase_quantity}</arg>
+<arg>clickCount=${click_count}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.306707" elapsed="0.067738"/>
+</kw>
+<kw name="Get Property" owner="Browser">
+<msg time="2026-03-26T11:20:38.390216" level="INFO">Property: '6'</msg>
+<msg time="2026-03-26T11:20:38.390400" level="INFO">${quantity} = 6</msg>
+<var>${quantity}</var>
+<arg>${product_locator.txt_quantity}</arg>
+<arg>value</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the ``property`` of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.374901" elapsed="0.015532"/>
+</kw>
+<kw name="Convert To Integer" owner="BuiltIn">
+<msg time="2026-03-26T11:20:38.391199" level="INFO">${qty_int} = 6</msg>
+<var>${qty_int}</var>
+<arg>${quantity}</arg>
+<doc>Converts the given item to an integer number.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.390709" elapsed="0.000520"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-03-26T11:20:38.391912" level="INFO">${qty_by_click} = 6</msg>
+<var>${qty_by_click}</var>
+<arg>${click_count} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.391373" elapsed="0.000568"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${qty_int}</arg>
+<arg>${qty_by_click}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.392085" elapsed="0.000313"/>
+</kw>
+<return>
+<value>${quantity}</value>
+<status status="PASS" start="2026-03-26T11:20:38.392463" elapsed="0.000085"/>
+</return>
+<status status="PASS" start="2026-03-26T11:20:38.304414" elapsed="0.088185"/>
+</branch>
+<branch type="ELSE IF" condition="${stock_int} &gt; 3501">
+<kw name="Click With Options" owner="Browser">
+<arg>${product_locator.btn_increase_quantity}</arg>
+<arg>clickCount=${click_count}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="NOT RUN" start="2026-03-26T11:20:38.393011" elapsed="0.000066"/>
+</kw>
+<kw name="Get Property" owner="Browser">
+<var>${quantity}</var>
+<arg>${product_locator.txt_quantity}</arg>
+<arg>value</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the ``property`` of the element found by ``selector``.</doc>
+<status status="NOT RUN" start="2026-03-26T11:20:38.393264" elapsed="0.000132"/>
+</kw>
+<kw name="Convert To Integer" owner="BuiltIn">
+<var>${qty_int}</var>
+<arg>${quantity}</arg>
+<doc>Converts the given item to an integer number.</doc>
+<status status="NOT RUN" start="2026-03-26T11:20:38.393557" elapsed="0.000063"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<var>${qty_by_click}</var>
+<arg>${click_count} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" start="2026-03-26T11:20:38.393954" elapsed="0.000229"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${qty_int}</arg>
+<arg>${qty_by_click}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="NOT RUN" start="2026-03-26T11:20:38.394647" elapsed="0.000153"/>
+</kw>
+<return>
+<value>${quantity}</value>
+<status status="NOT RUN" start="2026-03-26T11:20:38.394990" elapsed="0.000173"/>
+</return>
+<status status="NOT RUN" start="2026-03-26T11:20:38.392792" elapsed="0.002442"/>
+</branch>
+<status status="PASS" start="2026-03-26T11:20:38.304349" elapsed="0.090942"/>
+</if>
+<msg time="2026-03-26T11:20:38.395486" level="INFO">${quantity} = 6</msg>
+<var>${quantity}</var>
+<arg>${stock}</arg>
+<status status="PASS" start="2026-03-26T11:20:38.301618" elapsed="0.093899"/>
+</kw>
+<kw name="Verify Product Name" owner="product_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-26T11:20:38.425078" level="INFO">Text: 'Ceramic Mug\nHome'</msg>
+<msg time="2026-03-26T11:20:38.425292" level="INFO">${text_product_name} = Ceramic Mug
+Home</msg>
+<var>${text_product_name}</var>
+<arg>${product_locator.product_name}</arg>
+<arg>*=</arg>
+<arg>${expeected_product_name}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.396659" elapsed="0.028665"/>
+</kw>
+<arg>${TC_001.Product}</arg>
+<status status="PASS" start="2026-03-26T11:20:38.395777" elapsed="0.029668"/>
+</kw>
+<kw name="Verify Stock" owner="product_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-26T11:20:38.439095" level="INFO">Text: 'Available: 3198'</msg>
+<msg time="2026-03-26T11:20:38.439255" level="INFO">${text_product_stock} = Available: 3198</msg>
+<var>${text_product_stock}</var>
+<arg>${product_locator.product_stock}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.426152" elapsed="0.013133"/>
+</kw>
+<kw name="Fetch From Right" owner="String">
+<msg time="2026-03-26T11:20:38.439827" level="INFO">${stock} = 3198</msg>
+<var>${stock}</var>
+<arg>${text_product_stock}</arg>
+<arg>marker=${SPACE}</arg>
+<doc>Returns contents of the ``string`` after the last occurrence of ``marker``.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.439484" elapsed="0.000371"/>
+</kw>
+<return>
+<value>${stock}</value>
+<status status="PASS" start="2026-03-26T11:20:38.439919" elapsed="0.000085"/>
+</return>
+<status status="PASS" start="2026-03-26T11:20:38.425760" elapsed="0.014351"/>
+</kw>
+<kw name="Verify Total Price" owner="product_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-26T11:20:38.455609" level="INFO">Text: 'THB\xa0546.00'</msg>
+<msg time="2026-03-26T11:20:38.456794" level="INFO">${text_total_price} = THB 546.00</msg>
+<var>${text_total_price}</var>
+<arg>${product_locator.total_price}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.440720" elapsed="0.016116"/>
+</kw>
+<kw name="Replace String" owner="String">
+<msg time="2026-03-26T11:20:38.457785" level="INFO">${total_price} =  546.00</msg>
+<var>${total_price}</var>
+<arg>${text_total_price}</arg>
+<arg>THB</arg>
+<arg>${EMPTY}</arg>
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.457057" elapsed="0.000757"/>
+</kw>
+<kw name="Strip String" owner="String">
+<msg time="2026-03-26T11:20:38.458166" level="INFO">${total_price} = 546.00</msg>
+<var>${total_price}</var>
+<arg>${total_price}</arg>
+<doc>Remove leading and/or trailing whitespaces from the given string.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.457955" elapsed="0.000237"/>
+</kw>
+<kw name="Convert To Number" owner="BuiltIn">
+<msg time="2026-03-26T11:20:38.458642" level="INFO">${total_price_num} = 546.0</msg>
+<var>${total_price_num}</var>
+<arg>${total_price}</arg>
+<doc>Converts the given item to a floating point number.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.458318" elapsed="0.000354"/>
+</kw>
+<kw name="Verify Stock" owner="product_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-26T11:20:38.472956" level="INFO">Text: 'Available: 3198'</msg>
+<msg time="2026-03-26T11:20:38.473180" level="INFO">${text_product_stock} = Available: 3198</msg>
+<var>${text_product_stock}</var>
+<arg>${product_locator.product_stock}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.459086" elapsed="0.014134"/>
+</kw>
+<kw name="Fetch From Right" owner="String">
+<msg time="2026-03-26T11:20:38.473887" level="INFO">${stock} = 3198</msg>
+<var>${stock}</var>
+<arg>${text_product_stock}</arg>
+<arg>marker=${SPACE}</arg>
+<doc>Returns contents of the ``string`` after the last occurrence of ``marker``.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.473433" elapsed="0.000492"/>
+</kw>
+<return>
+<value>${stock}</value>
+<status status="PASS" start="2026-03-26T11:20:38.474000" elapsed="0.000098"/>
+</return>
+<msg time="2026-03-26T11:20:38.474336" level="INFO">${stock_int} = 3198</msg>
+<var>${stock_int}</var>
+<status status="PASS" start="2026-03-26T11:20:38.458845" elapsed="0.015527"/>
+</kw>
+<if>
+<branch type="IF" condition="${stock_int} &lt;= 3500">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-03-26T11:20:38.476016" level="INFO">${expected_total_price} = 546.0</msg>
+<var>${expected_total_price}</var>
+<arg>${TC_001.CeramicMugPrice} * ${quantity}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.475057" elapsed="0.000990"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<arg>${total_price_num}</arg>
+<arg>${expected_total_price}</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-03-26T11:20:38.476185" elapsed="0.000301"/>
+</kw>
+<status status="PASS" start="2026-03-26T11:20:38.474529" elapsed="0.002018"/>
+</branch>
+<branch type="ELSE IF" condition="${stock_int} &gt; 3501">
+<kw name="Evaluate" owner="BuiltIn">
+<var>${expected_total_price}</var>
+<arg>${TC_001.CeramicMugPrice} * ${quantity}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" start="2026-03-26T11:20:38.476741" elapsed="0.000051"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<arg>${total_price_num}</arg>
+<arg>${expected_total_price}</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="NOT RUN" start="2026-03-26T11:20:38.476900" elapsed="0.000048"/>
+</kw>
+<status status="NOT RUN" start="2026-03-26T11:20:38.476596" elapsed="0.000440"/>
+</branch>
+<status status="PASS" start="2026-03-26T11:20:38.474473" elapsed="0.002718"/>
+</if>
+<arg>${quantity}</arg>
+<status status="PASS" start="2026-03-26T11:20:38.440410" elapsed="0.036870"/>
+</kw>
+<msg time="2026-03-26T11:20:38.501914" level="INFO">Switching context to context=d9d96387-8dee-47fe-9921-212e5222b561 in CURRENT</msg>
+<msg time="2026-03-26T11:20:38.520236" level="INFO">Successfully changed active context: context=d9d96387-8dee-47fe-9921-212e5222b561</msg>
+<msg time="2026-03-26T11:20:38.688045" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-03-26T11:20:29.634681" elapsed="8.843028"/>
+</test>
+<status status="PASS" start="2026-03-26T11:20:29.247837" elapsed="9.441074"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TC 001" id="s1" pass="1" fail="0" skip="0">TC 001</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

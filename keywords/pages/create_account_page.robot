@@ -1,21 +1,21 @@
 *** Keywords ***
-Input Full Name
+Input full name
     [Arguments]    ${fullname}
     Browser.Fill Text    ${create_account_locator.txt_fullname}    ${fullname}
 
-Input Mobile phone
+Input mobile phone
     [Arguments]    ${mobile} 
     Browser.Fill Text    ${create_account_locator.txt_mobile}      ${mobile} 
 
-Input Email
+Input email
     [Arguments]    ${email}
     Browser.Fill Text    ${create_account_locator.txt_email}    ${email}
 
-Input Password
+Input password
     [Arguments]    ${password}
     Browser.Fill Text    ${create_account_locator.txt_password}    ${password}
 
-Input Confirm Password
+Input confirm password
     [Arguments]    ${confirmpassword}
     Browser.Fill Text    selector=${create_account_locator.txt_confirm_password}    txt=${confirmpassword}
 

@@ -17,18 +17,17 @@ TC001 - Register
     ...    confirmpassword=${TC_001.valid_confirmpwd}
     create_account_page.Click create account
     # create_account_page.Verify User logged in               verifyemail=${TC_001.valid_email}
-    
-
-    search_product_page.Input Product Name
+    search_product_page.Input product name
     ...    productname=${TC_001.product_name}
-
-    Sleep      5s
-    search_product_page.Click Search Icon
-   
-    search_product_page.Click View Detail Product
-    detail_product_page.Adjust Product Quantity
+    Sleep      1s
+    search_product_page.Click search icon
+    search_product_page.Click view detail product
+    detail_product_page.Adjust product quantity
+    # Debug
     detail_product_page.Verify product name
     detail_product_page.Verify avaliable amount
+    detail_product_page.Verify total price
+
 
 
     

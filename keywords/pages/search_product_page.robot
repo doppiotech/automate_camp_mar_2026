@@ -1,10 +1,10 @@
 *** Keywords ***
-Input Product Name
+Input product name
     [Arguments]    ${productname}
-    Browser.Fill Text    ${search_product_locator.txt_productname}    ${productname}
+    Browser.Fill text    ${search_product_locator.txt_productname}    ${productname}
 
-Click Search Icon
+Click search icon
     Browser.Click    ${search_product_locator.btn_search}
 
-Click View Detail Product
+Click view detail product
     Browser.Click    ${search_product_locator.btn_view_detail_product}

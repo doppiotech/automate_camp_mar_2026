@@ -22,4 +22,4 @@ Basic Keywords 2 (part1)
     Click View Product
     Check and increase quantity    
     Verify product title       ${Testcase_01.product}
-    # Verify available amount     ${available} < 3500
+    Verify available amount    

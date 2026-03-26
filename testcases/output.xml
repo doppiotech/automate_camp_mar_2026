@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.0 on darwin)" generated="2026-03-26T17:21:14.568573" rpa="false" schemaversion="5">
+<suite id="s1" name="TC 01" source="/Users/yanisasopa/Documents/GitHub/automate_camp_mar_2026/testcases/TC_01.robot">
+<test id="s1-t1" name="Basic Keywords 2 (part1)" line="6">
+<kw name="Generate random email" owner="common">
+<kw name="Generate Random String" owner="String">
+<msg time="2026-03-26T17:21:14.806616" level="INFO">${random_email} = qo6XcdT2</msg>
+<var>${random_email}</var>
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<status status="PASS" start="2026-03-26T17:21:14.806497" elapsed="0.000140"/>
+</kw>
+<return>
+<value>${random_email}@gmail.com</value>
+<status status="PASS" start="2026-03-26T17:21:14.806691" elapsed="0.000049"/>
+</return>
+<msg time="2026-03-26T17:21:14.806819" level="INFO">${email} = qo6XcdT2@gmail.com</msg>
+<var>${email}</var>
+<status status="PASS" start="2026-03-26T17:21:14.806263" elapsed="0.000570"/>
+</kw>
+<kw name="Open Local Website" owner="common">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-26T17:21:14.807532" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/yanisasopa/Documents/GitHub/automate_camp_mar_2026/testcases/browser/traces/temp/821563b3-144c-475b-b7ca-784a635ca13d"}</msg>
+<msg time="2026-03-26T17:21:14.900215" level="INFO">Starting Browser process /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:64381</msg>
+<msg time="2026-03-26T17:21:18.284493" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/yanisasopa/Documents/GitHub/automate_camp_mar_2026/testcases/browser/traces/temp/821563b3-144c-475b-b7ca-784a635ca13d"}</msg>
+<arg>chromium</arg>
+<arg>headless=FALSE</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-26T17:21:14.807171" elapsed="3.483486"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-26T17:21:19.407525" level="INFO">Successfully initialized new page object and opened url: http://192.8.8.124:8080/</msg>
+<msg time="2026-03-26T17:21:19.408196" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-26T17:21:18.294071" elapsed="1.119563"/>
+</kw>
+<status status="PASS" start="2026-03-26T17:21:14.806938" elapsed="4.607900"/>
+</kw>
+<kw name="Click profile icon" owner="nav_bar_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T17:21:19.424353" level="INFO">Clicks the element 'id=btn-account'.</msg>
+<arg>selector=${nav_bar_locator.btn_account}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:19.423324" elapsed="0.177643"/>
+</kw>
+<status status="PASS" start="2026-03-26T17:21:19.422264" elapsed="0.178794"/>
+</kw>
+<kw name="Click sign in" owner="nav_bar_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T17:21:19.601815" level="INFO">Clicks the element 'css=[data-testid="nav-account-signin"]'.</msg>
+<arg>selector=${nav_bar_locator.btn_signin}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:19.601513" elapsed="0.112554"/>
+</kw>
+<status status="PASS" start="2026-03-26T17:21:19.601266" elapsed="0.112928"/>
+</kw>
+<kw name="Click create account button" owner="sign_in_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T17:21:19.715091" level="INFO">Clicks the element 'css=a:text-is("Create account")'.</msg>
+<arg>selector=${sign_in_locator.btn_create_account}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:19.714749" elapsed="0.072003"/>
+</kw>
+<status status="PASS" start="2026-03-26T17:21:19.714458" elapsed="0.072429"/>
+</kw>
+<kw name="Input all fill create account" owner="create_account_feature">
+<kw name="Fill full name" owner="create_account_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-26T17:21:19.789318" level="INFO">Fills the text 'TestFullname' in the given field.</msg>
+<arg>${create_account_locator.txt_fullname}</arg>
+<arg>${Full_name}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:19.789068" elapsed="0.014610"/>
+</kw>
+<arg>Full_name=${full_name}</arg>
+<status status="PASS" start="2026-03-26T17:21:19.788874" elapsed="0.014898"/>
+</kw>
+<kw name="Fill mobile phone" owner="create_account_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-26T17:21:19.804437" level="INFO">Fills the text '0900001234' in the given field.</msg>
+<arg>${create_account_locator.txt_phone}</arg>
+<arg>${Phone}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:19.804165" elapsed="0.012553"/>
+</kw>
+<arg>Phone=${phone}</arg>
+<status status="PASS" start="2026-03-26T17:21:19.803896" elapsed="0.012912"/>
+</kw>
+<kw name="Fill email" owner="create_account_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-26T17:21:19.817426" level="INFO">Fills the text 'qo6XcdT2@gmail.com' in the given field.</msg>
+<arg>${create_account_locator.txt_email}</arg>
+<arg>${Email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:19.817163" elapsed="0.006369"/>
+</kw>
+<arg>Email=${email}</arg>
+<status status="PASS" start="2026-03-26T17:21:19.816930" elapsed="0.006691"/>
+</kw>
+<kw name="Fill password" owner="create_account_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-26T17:21:19.824280" level="INFO">Fills the text 'Doppio123' in the given field.</msg>
+<arg>${create_account_locator.txt_password}</arg>
+<arg>${Password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:19.824004" elapsed="0.012331"/>
+</kw>
+<arg>Password=${password}</arg>
+<status status="PASS" start="2026-03-26T17:21:19.823752" elapsed="0.012692"/>
+</kw>
+<kw name="Fill confirm password" owner="create_account_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-26T17:21:19.837567" level="INFO">Fills the text 'Doppio123' in the given field.</msg>
+<arg>${create_account_locator.txt_confirm_password}</arg>
+<arg>${Confirm_Password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:19.836986" elapsed="0.005912"/>
+</kw>
+<arg>Confirm_Password=${confirm_password}</arg>
+<status status="PASS" start="2026-03-26T17:21:19.836688" elapsed="0.006301"/>
+</kw>
+<arg>full_name=${Testcase_01.full_name}</arg>
+<arg>phone=${Testcase_01.phone}</arg>
+<arg>email=${email}</arg>
+<arg>password=${Testcase_01.password}</arg>
+<arg>confirm_password=${Testcase_01.confirm_password}</arg>
+<doc>input fullname, phone, email, password</doc>
+<status status="PASS" start="2026-03-26T17:21:19.787166" elapsed="0.055856"/>
+</kw>
+<kw name="Click at create account" owner="create_account_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T17:21:19.843669" level="INFO">Clicks the element 'css=button[data-testid="signup-submit"]'.</msg>
+<arg>${create_account_locator.btn_submit_account}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:19.843403" elapsed="0.034352"/>
+</kw>
+<status status="PASS" start="2026-03-26T17:21:19.843195" elapsed="0.034679"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-26T17:21:20.880494" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-26T17:21:19.878417" elapsed="1.002295"/>
+</kw>
+<kw name="Search product" owner="search_product_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-26T17:21:20.882083" level="INFO">Fills the text 'Ceramic Mug' in the given field.</msg>
+<arg>${search_product_locator.txt_search_product}</arg>
+<arg>${product}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:20.881762" elapsed="0.008021"/>
+</kw>
+<arg>product=${Testcase_01.product}</arg>
+<status status="PASS" start="2026-03-26T17:21:20.881131" elapsed="0.008746"/>
+</kw>
+<kw name="Click search button" owner="search_product_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T17:21:20.890691" level="INFO">Clicks the element 'css=button [aria-label="nav-svg-0"]'.</msg>
+<arg>${search_product_locator.btn_search_product}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:20.890406" elapsed="0.074333"/>
+</kw>
+<status status="PASS" start="2026-03-26T17:21:20.890165" elapsed="0.074691"/>
+</kw>
+<kw name="Click view product" owner="search_product_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T17:21:20.965511" level="INFO">Clicks the element 'css=[data-testid="product-card-view-11"]'.</msg>
+<arg>${search_product_locator.btn_select_product}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:20.965255" elapsed="0.092641"/>
+</kw>
+<status status="PASS" start="2026-03-26T17:21:20.965035" elapsed="0.093063"/>
+</kw>
+<kw name="Check and increase quantity" owner="search_product_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-26T17:21:21.105338" level="INFO">Text: 'Available: 3198'</msg>
+<msg time="2026-03-26T17:21:21.105452" level="INFO">${available_text} = Available: 3198</msg>
+<var>${available_text}</var>
+<arg>${search_product_locator.txt_available_product}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.059074" elapsed="0.046394"/>
+</kw>
+<kw name="Fetch From Right" owner="String">
+<msg time="2026-03-26T17:21:21.105894" level="INFO">${available} = 3198</msg>
+<var>${available}</var>
+<arg>${available_text}</arg>
+<arg>${space}</arg>
+<doc>Returns contents of the ``string`` after the last occurrence of ``marker``.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.105611" elapsed="0.000303"/>
+</kw>
+<if>
+<branch type="IF" condition="${available} &lt;= 3500">
+<for flavor="IN RANGE">
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T17:21:21.107005" level="INFO">Clicks the element 'css=[aria-label="Increase quantity"]'.</msg>
+<arg>${search_product_locator.btn_increase_quantity}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.106742" elapsed="0.034400"/>
+</kw>
+<var name="${i}">0</var>
+<status status="PASS" start="2026-03-26T17:21:21.106631" elapsed="0.034594"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T17:21:21.141782" level="INFO">Clicks the element 'css=[aria-label="Increase quantity"]'.</msg>
+<arg>${search_product_locator.btn_increase_quantity}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.141514" elapsed="0.031406"/>
+</kw>
+<var name="${i}">1</var>
+<status status="PASS" start="2026-03-26T17:21:21.141341" elapsed="0.031645"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T17:21:21.173488" level="INFO">Clicks the element 'css=[aria-label="Increase quantity"]'.</msg>
+<arg>${search_product_locator.btn_increase_quantity}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.173226" elapsed="0.034735"/>
+</kw>
+<var name="${i}">2</var>
+<status status="PASS" start="2026-03-26T17:21:21.173077" elapsed="0.034963"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-26T17:21:21.208699" level="INFO">Clicks the element 'css=[aria-label="Increase quantity"]'.</msg>
+<arg>${search_product_locator.btn_increase_quantity}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.208311" elapsed="0.031736"/>
+</kw>
+<var name="${i}">3</var>
+<status status="PASS" start="2026-03-26T17:21:21.208146" elapsed="0.031971"/>
+</iter>
+<var>${i}</var>
+<value>4</value>
+<status status="PASS" start="2026-03-26T17:21:21.106433" elapsed="0.133723"/>
+</for>
+<status status="PASS" start="2026-03-26T17:21:21.106021" elapsed="0.134185"/>
+</branch>
+<branch type="ELSE">
+<for flavor="IN RANGE">
+<iter>
+<kw name="Click" owner="Browser">
+<arg>${search_product_locator.btn_increase_quantity}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="NOT RUN" start="2026-03-26T17:21:21.240529" elapsed="0.000031"/>
+</kw>
+<var name="${i}"/>
+<status status="NOT RUN" start="2026-03-26T17:21:21.240432" elapsed="0.000156"/>
+</iter>
+<var>${i}</var>
+<value>2</value>
+<status status="NOT RUN" start="2026-03-26T17:21:21.240368" elapsed="0.000243"/>
+</for>
+<status status="NOT RUN" start="2026-03-26T17:21:21.240236" elapsed="0.000399"/>
+</branch>
+<status status="PASS" start="2026-03-26T17:21:21.105989" elapsed="0.134665"/>
+</if>
+<status status="PASS" start="2026-03-26T17:21:21.058678" elapsed="0.182014"/>
+</kw>
+<kw name="Verify product title" owner="search_product_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-26T17:21:21.249280" level="INFO">Text: 'Ceramic Mug\nHome'</msg>
+<msg time="2026-03-26T17:21:21.249382" level="INFO">${name_product} = Ceramic Mug
+Home</msg>
+<var>${name_product}</var>
+<arg>${search_product_locator.lbl_product_titile}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.241259" elapsed="0.008139"/>
+</kw>
+<kw name="Fetch From Left" owner="String">
+<msg time="2026-03-26T17:21:21.249707" level="INFO">${name_product} = Ceramic Mug</msg>
+<var>${name_product}</var>
+<arg>${name_product}</arg>
+<arg>\n</arg>
+<doc>Returns contents of the ``string`` before the first occurrence of ``marker``.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.249523" elapsed="0.000199"/>
+</kw>
+<return>
+<value>${name_product}</value>
+<status status="PASS" start="2026-03-26T17:21:21.249772" elapsed="0.000070"/>
+</return>
+<arg>${Testcase_01.product}</arg>
+<status status="PASS" start="2026-03-26T17:21:21.240838" elapsed="0.009068"/>
+</kw>
+<kw name="Verify available amount" owner="search_product_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-26T17:21:21.256492" level="INFO">Text: 'Available: 3198'</msg>
+<msg time="2026-03-26T17:21:21.256589" level="INFO">${amount_num} = Available: 3198</msg>
+<var>${amount_num}</var>
+<arg>${search_product_locator.lbl_available_amount}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.250188" elapsed="0.006417"/>
+</kw>
+<kw name="Fetch From Right" owner="String">
+<msg time="2026-03-26T17:21:21.256953" level="INFO">${available} = 3198</msg>
+<var>${available}</var>
+<arg>${amount_num}</arg>
+<arg>${space}</arg>
+<doc>Returns contents of the ``string`` after the last occurrence of ``marker``.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.256778" elapsed="0.000191"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${available} &lt; 3500</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.257062" elapsed="0.000144"/>
+</kw>
+<status status="PASS" start="2026-03-26T17:21:21.250041" elapsed="0.007205"/>
+</kw>
+<kw name="Verify total price" owner="search_product_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-26T17:21:21.262780" level="INFO">Text: 'THB\xa0455.00'</msg>
+<msg time="2026-03-26T17:21:21.263111" level="INFO">${total_aoumt} = THB 455.00</msg>
+<var>${total_aoumt}</var>
+<arg>${search_product_locator.lbl_total_amount}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.257736" elapsed="0.005394"/>
+</kw>
+<kw name="Replace String" owner="String">
+<msg time="2026-03-26T17:21:21.263449" level="INFO">${total_aoumt} = THB 455.00</msg>
+<var>${total_aoumt}</var>
+<arg>${total_aoumt}</arg>
+<arg>\xa0</arg>
+<arg>${space}</arg>
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.263261" elapsed="0.000204"/>
+</kw>
+<kw name="Fetch From Right" owner="String">
+<msg time="2026-03-26T17:21:21.263638" level="INFO">${total_aoumt} = 455.00</msg>
+<var>${total_aoumt}</var>
+<arg>${total_aoumt}</arg>
+<arg>${space}</arg>
+<doc>Returns contents of the ``string`` after the last occurrence of ``marker``.</doc>
+<status status="PASS" start="2026-03-26T17:21:21.263542" elapsed="0.000109"/>
+</kw>
+<return>
+<value>${total_aoumt}</value>
+<status status="PASS" start="2026-03-26T17:21:21.263684" elapsed="0.000041"/>
+</return>
+<arg>${Testcase_01.total}</arg>
+<status status="PASS" start="2026-03-26T17:21:21.257371" elapsed="0.006414"/>
+</kw>
+<msg time="2026-03-26T17:21:21.270973" level="INFO">Switching context to context=02416618-a325-4279-bb74-26529c444d80 in CURRENT</msg>
+<msg time="2026-03-26T17:21:21.279449" level="INFO">Successfully changed active context: context=02416618-a325-4279-bb74-26529c444d80</msg>
+<msg time="2026-03-26T17:21:21.343533" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-03-26T17:21:14.805879" elapsed="6.458028"/>
+</test>
+<status status="PASS" start="2026-03-26T17:21:14.569842" elapsed="6.774264"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TC 01" id="s1" pass="1" fail="0" skip="0">TC 01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

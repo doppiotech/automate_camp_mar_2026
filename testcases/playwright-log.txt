@@ -1,0 +1,94 @@
+{"level":30,"time":"2026-03-26T10:21:15.492Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Listening on 127.0.0.1:64381"}
+{"level":30,"time":"2026-03-26T10:21:16.545Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-26T10:21:18.281Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-26T10:21:18.282Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-26T10:21:18.282Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-26T10:21:18.306Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-26T10:21:18.306Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@81800d7469dec897558a88a346f6d945\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=a61ef434-3e9c-4db7-a4c0-822cf14dbb77\"}"}
+{"level":30,"time":"2026-03-26T10:21:18.331Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Setting default timeout for context context=02416618-a325-4279-bb74-26529c444d80 to 10000"}
+{"level":30,"time":"2026-03-26T10:21:18.331Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Changed active context: context=02416618-a325-4279-bb74-26529c444d80"}
+{"level":30,"time":"2026-03-26T10:21:19.090Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-26T10:21:19.090Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-26T10:21:19.404Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-26T10:21:19.435Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T10:21:19.436Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: id=btn-account in page."}
+{"level":30,"time":"2026-03-26T10:21:19.600Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T10:21:19.602Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T10:21:19.602Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"nav-account-signin\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:19.713Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T10:21:19.715Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T10:21:19.715Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=a:text-is(\"Create account\") in page."}
+{"level":30,"time":"2026-03-26T10:21:19.785Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T10:21:19.790Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-26T10:21:19.790Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=input[data-testid=\"signup-fullname\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:19.803Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-26T10:21:19.805Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-26T10:21:19.805Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=input[data-testid=\"signup-phone\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:19.816Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-26T10:21:19.818Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-26T10:21:19.818Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=input[data-testid=\"signup-email\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:19.822Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-26T10:21:19.825Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-26T10:21:19.825Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=input[data-testid=\"signup-password\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:19.829Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-26T10:21:19.838Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-26T10:21:19.838Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=input[data-testid=\"signup-confirm\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:19.842Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-26T10:21:19.844Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T10:21:19.844Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=button[data-testid=\"signup-submit\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:19.877Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T10:21:20.882Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-26T10:21:20.882Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"nav-search-input\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:20.888Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-26T10:21:20.891Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T10:21:20.891Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=button [aria-label=\"nav-svg-0\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:20.964Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T10:21:20.966Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T10:21:20.966Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"product-card-view-11\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:21.057Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T10:21:21.060Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-26T10:21:21.060Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"productdetail-stock\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:21.104Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Retrieved text for element css=[data-testid=\"productdetail-stock\"] containing Available: 3198"}
+{"level":30,"time":"2026-03-26T10:21:21.104Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-26T10:21:21.107Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T10:21:21.107Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[aria-label=\"Increase quantity\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:21.140Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T10:21:21.142Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T10:21:21.142Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[aria-label=\"Increase quantity\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:21.172Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T10:21:21.174Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T10:21:21.174Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[aria-label=\"Increase quantity\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:21.207Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T10:21:21.209Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-26T10:21:21.209Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[aria-label=\"Increase quantity\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:21.239Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-26T10:21:21.242Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-26T10:21:21.242Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=h1:has-text(\"Ceramic Mug\") in page."}
+{"level":30,"time":"2026-03-26T10:21:21.248Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Retrieved text for element css=h1:has-text(\"Ceramic Mug\") containing Ceramic Mug\nHome"}
+{"level":30,"time":"2026-03-26T10:21:21.248Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-26T10:21:21.251Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-26T10:21:21.251Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[data-testid=\"productdetail-stock\"] in page."}
+{"level":30,"time":"2026-03-26T10:21:21.255Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Retrieved text for element css=[data-testid=\"productdetail-stock\"] containing Available: 3198"}
+{"level":30,"time":"2026-03-26T10:21:21.255Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-26T10:21:21.258Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-26T10:21:21.258Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[aria-label=\"productdetail-div-2\"] span:has-text(\"THB\") in page."}
+{"level":30,"time":"2026-03-26T10:21:21.262Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Retrieved text for element css=[aria-label=\"productdetail-div-2\"] span:has-text(\"THB\") containing THB 455.00"}
+{"level":30,"time":"2026-03-26T10:21:21.262Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-26T10:21:21.265Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T10:21:21.267Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T10:21:21.268Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T10:21:21.268Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T10:21:21.269Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T10:21:21.270Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T10:21:21.271Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T10:21:21.272Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T10:21:21.273Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Changed active context: context=02416618-a325-4279-bb74-26529c444d80"}
+{"level":30,"time":"2026-03-26T10:21:21.273Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Changing current active page: page=34373c41-d8a8-4fb9-a9e7-6f91efaf13f8"}
+{"level":30,"time":"2026-03-26T10:21:21.273Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-26T10:21:21.280Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-26T10:21:21.307Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Removed page=86375550-926c-4728-bf1c-e651a93877f9 from context=02416618-a325-4279-bb74-26529c444d80 page stack"}
+{"level":30,"time":"2026-03-26T10:21:21.343Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-26T10:21:21.345Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T10:21:21.345Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T10:21:21.368Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-26T10:21:21.518Z","pid":43102,"hostname":"yanisas-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}

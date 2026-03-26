@@ -1,0 +1,8 @@
+Testcase_01:
+  full_name: TestFullname
+  phone: 0900001234
+  email: Testt04@gmail.com
+  password: Doppio123
+  confirm_password: Doppio123
+  product: Ceramic Mug
+  total: 455.00

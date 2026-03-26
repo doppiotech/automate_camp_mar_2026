@@ -1,0 +1,35 @@
+{"level":30,"time":"2026-03-26T08:20:10.711Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Listening on 127.0.0.1:63978"}
+{"level":30,"time":"2026-03-26T08:20:11.831Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-26T08:20:17.929Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-26T08:20:17.930Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-26T08:20:17.931Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-26T08:20:17.951Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-26T08:20:17.951Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
+{"level":30,"time":"2026-03-26T08:20:17.951Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@a7f97f0de40f13fcc04f044e741664a5\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=b95fb622-0940-49e1-b256-6a377cd50a46\"}"}
+{"level":30,"time":"2026-03-26T08:20:17.951Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Trace file: "}
+{"level":30,"time":"2026-03-26T08:20:17.964Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Setting default timeout for context context=4efc7a68-6a60-41ac-9172-ab71a44a8c4a to 30000"}
+{"level":30,"time":"2026-03-26T08:20:17.965Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Changed active context: context=4efc7a68-6a60-41ac-9172-ab71a44a8c4a"}
+{"level":30,"time":"2026-03-26T08:20:17.965Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-26T08:20:17.988Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-26T08:20:17.989Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@a7f97f0de40f13fcc04f044e741664a5\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=4efc7a68-6a60-41ac-9172-ab71a44a8c4a\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@c46cdf02d402e1799dfca911e0a2e32d\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null},\"traceFile\":\"\"}],\"id\":\"browser=b95fb622-0940-49e1-b256-6a377cd50a46\"}"}
+{"level":30,"time":"2026-03-26T08:20:18.698Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-26T08:20:18.699Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-26T08:20:19.003Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-26T08:20:19.065Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T08:20:19.364Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T08:20:19.371Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T08:20:19.373Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T08:20:19.378Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T08:20:19.383Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T08:20:19.393Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T08:20:19.397Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T08:20:19.410Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Changed active context: context=4efc7a68-6a60-41ac-9172-ab71a44a8c4a"}
+{"level":30,"time":"2026-03-26T08:20:19.411Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Changing current active page: page=b53d9397-037d-484f-9296-489f1703866d"}
+{"level":30,"time":"2026-03-26T08:20:19.411Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-26T08:20:19.424Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-26T08:20:19.449Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Removed page=9ab9062e-0522-49d7-857b-30ce180a9eb1 from context=4efc7a68-6a60-41ac-9172-ab71a44a8c4a page stack"}
+{"level":30,"time":"2026-03-26T08:20:19.468Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-26T08:20:19.474Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T08:20:19.474Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-26T08:20:19.587Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-26T08:20:19.690Z","pid":53656,"hostname":"Kongphop-Sunitnantakarn-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}

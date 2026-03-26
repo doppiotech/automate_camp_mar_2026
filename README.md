@@ -3,7 +3,6 @@ Aunggg
 Fah
 Kong
 Arm
-Fah
 mon
 kaew
 Kik2026

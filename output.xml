@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.3 on win32)" generated="2026-03-25T10:59:38.785582" rpa="false" schemaversion="5">
+<suite id="s1" name="Workshop5" source="C:\Users\doppio\Desktop\Project Structure\workshop5.robot">
+<test id="s1-t1" name="TC_001" line="67">
+<kw name="Open training web" owner="common">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-25T10:59:39.272625" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\doppio\\Desktop\\Project Structure\\browser\\traces\\temp\\83d86150-e64e-4607-8920-c1830829fe58"}</msg>
+<msg time="2026-03-25T10:59:39.306801" level="INFO">Starting Browser process C:\Users\doppio\AppData\Roaming\Python\Python314\site-packages\Browser\wrapper\index.js using at 127.0.0.1:61456</msg>
+<msg time="2026-03-25T10:59:40.758991" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\doppio\\Desktop\\Project Structure\\browser\\traces\\temp\\83d86150-e64e-4607-8920-c1830829fe58"}</msg>
+<arg>chromium</arg>
+<arg>${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-25T10:59:39.271420" elapsed="1.487789"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-03-25T10:59:40.761631" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2026-03-25T10:59:40.779181" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-25T10:59:40.779302" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-03-25T10:59:40.759630" elapsed="0.019945"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-25T10:59:41.253492" level="INFO">Successfully initialized new page object and opened url: http://192.8.8.124:8080</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-25T10:59:40.779889" elapsed="0.473911"/>
+</kw>
+<status status="PASS" start="2026-03-25T10:59:39.270238" elapsed="1.983761"/>
+</kw>
+<kw name="Click Person icon" owner="nav_bar_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-25T10:59:41.255893" level="INFO">Clicks the element 'id=btn-account'.</msg>
+<arg>${nav_bar_locator.btn_account}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T10:59:41.255215" elapsed="0.292863"/>
+</kw>
+<status status="PASS" start="2026-03-25T10:59:41.254550" elapsed="0.293743"/>
+</kw>
+<kw name="Click Sign in" owner="nav_bar_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-25T10:59:41.551412" level="INFO">Clicks the element 'data-testid=nav-account-signin'.</msg>
+<arg>${nav_bar_locator.btn_signin}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T10:59:41.550620" elapsed="0.069502"/>
+</kw>
+<status status="PASS" start="2026-03-25T10:59:41.549854" elapsed="0.070464"/>
+</kw>
+<kw name="Click Create account">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-25T10:59:41.621643" level="INFO">Clicks the element 'text=Create account'.</msg>
+<arg>text=Create account</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T10:59:41.621170" elapsed="0.072201"/>
+</kw>
+<status status="PASS" start="2026-03-25T10:59:41.620725" elapsed="0.072830"/>
+</kw>
+<kw name="Fill text Fullname">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-25T10:59:41.695112" level="INFO">Fills the text 'Doppio test' in the given field.</msg>
+<arg>css=[placeholder="Full Name"]</arg>
+<arg>${fullname}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T10:59:41.694544" elapsed="0.016540"/>
+</kw>
+<arg>Doppio test</arg>
+<status status="PASS" start="2026-03-25T10:59:41.693945" elapsed="0.017318"/>
+</kw>
+<kw name="Fill text Mobile Phone">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-25T10:59:41.712627" level="INFO">Fills the text '0911111234' in the given field.</msg>
+<arg>css=[type="tel"]</arg>
+<arg>${phone}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T10:59:41.712068" elapsed="0.014857"/>
+</kw>
+<arg>0911111234</arg>
+<status status="PASS" start="2026-03-25T10:59:41.711650" elapsed="0.015460"/>
+</kw>
+<kw name="Fill text Email">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-25T10:59:41.728607" level="INFO">Fills the text 'Dopptt55666@gmail.com' in the given field.</msg>
+<arg>css=[type="email"]</arg>
+<arg>${email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T10:59:41.727969" elapsed="0.013387"/>
+</kw>
+<arg>Dopptt55666@gmail.com</arg>
+<status status="PASS" start="2026-03-25T10:59:41.727489" elapsed="0.014059"/>
+</kw>
+<kw name="Fill text password">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-25T10:59:41.743112" level="INFO">Fills the text 'Doppio123' in the given field.</msg>
+<arg>css=[type="password"][data-testid="signup-password"]</arg>
+<arg>${password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T10:59:41.742535" elapsed="0.014543"/>
+</kw>
+<arg>Doppio123</arg>
+<status status="PASS" start="2026-03-25T10:59:41.742010" elapsed="0.015261"/>
+</kw>
+<kw name="Fill text confirm password">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-25T10:59:41.758750" level="INFO">Fills the text 'Doppio123' in the given field.</msg>
+<arg>css=[type="password"][data-testid="signup-confirm"]</arg>
+<arg>${confirm_password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T10:59:41.758245" elapsed="0.010850"/>
+</kw>
+<arg>Doppio123</arg>
+<status status="PASS" start="2026-03-25T10:59:41.757717" elapsed="0.011567"/>
+</kw>
+<kw name="Click Create account button">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-25T10:59:41.770637" level="INFO">Clicks the element 'css=#btn-signup'.</msg>
+<arg>css=#btn-signup</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T10:59:41.770151" elapsed="0.041290"/>
+</kw>
+<status status="PASS" start="2026-03-25T10:59:41.769706" elapsed="0.041908"/>
+</kw>
+<kw name="Verify user logged in with Email Display">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-25T10:59:51.974133" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2026-03-25T10:59:51.974295" level="INFO">See also file:///C:/Users/doppio/Desktop/Project%20Structure/playwright-log.txt for additional details.</msg>
+<msg time="2026-03-25T10:59:51.974606" level="FAIL">TimeoutError: locator.elementHandle: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('text=Dopptt55666@gmail.com').first()
+</msg>
+<var>${text}</var>
+<arg>text=${mail}</arg>
+<arg>==</arg>
+<arg>${mail}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="FAIL" start="2026-03-25T10:59:41.824960" elapsed="10.153121">TimeoutError: locator.elementHandle: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('text=Dopptt55666@gmail.com').first()
+</status>
+</kw>
+<arg>Dopptt55666@gmail.com</arg>
+<status status="FAIL" start="2026-03-25T10:59:41.823996" elapsed="10.154268">TimeoutError: locator.elementHandle: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('text=Dopptt55666@gmail.com').first()
+</status>
+</kw>
+<msg time="2026-03-25T10:59:51.993375" level="INFO">Switching context to context=f2f23782-8217-4301-8acc-3cfa35b7a92e in CURRENT</msg>
+<msg time="2026-03-25T10:59:52.003600" level="INFO">Successfully changed active context: context=f2f23782-8217-4301-8acc-3cfa35b7a92e</msg>
+<msg time="2026-03-25T10:59:52.028399" level="INFO">Successfully closed Context</msg>
+<status status="FAIL" start="2026-03-25T10:59:39.268365" elapsed="12.710362">TimeoutError: locator.elementHandle: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('text=Dopptt55666@gmail.com').first()
+</status>
+</test>
+<status status="FAIL" start="2026-03-25T10:59:38.787049" elapsed="13.242768"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Workshop5" id="s1" pass="0" fail="1" skip="0">Workshop5</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,2 @@
+***Variables***
+    Fetch From Right

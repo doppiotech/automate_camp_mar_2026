@@ -28,5 +28,5 @@ Open website
     ${quantity}=    product_page.Increase Quantity    ${stock}
     product_page.Verify Product Name    ${TC_001.Product}
     product_page.Verify Stock
-    product_page.Verify Total Price     ${quantity}
+    product_page.Verify Total Price     ${quantity}     ${TC_001.CeramicMugPrice}
 

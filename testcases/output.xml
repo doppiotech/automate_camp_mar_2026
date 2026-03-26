@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2026-03-25T14:46:47.543253" rpa="false" schemaversion="5">
+<suite id="s1" name="TC 001" source="C:\Users\Chutikarn.a\Desktop\project structure\testcases\TC_001.robot">
+<test id="s1-t1" name="TC Basickeywords1" line="6">
+<kw name="Open Web" owner="common">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-25T14:46:47.788991" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Chutikarn.a\\Desktop\\project structure\\testcases\\browser\\traces\\temp\\f16e65f2-4c85-4048-9d9e-1f9ccd0c8f8f"}</msg>
+<msg time="2026-03-25T14:46:47.838463" level="INFO">Starting Browser process C:\Users\Chutikarn.a\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:60958</msg>
+<msg time="2026-03-25T14:46:49.612389" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Chutikarn.a\\Desktop\\project structure\\testcases\\browser\\traces\\temp\\f16e65f2-4c85-4048-9d9e-1f9ccd0c8f8f"}</msg>
+<arg>Chromium</arg>
+<arg>${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-25T14:46:47.788344" elapsed="1.824262"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-25T14:46:49.945190" level="INFO">Successfully initialized new page object and opened url: http://192.8.8.124:8080</msg>
+<msg time="2026-03-25T14:46:49.945348" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-25T14:46:49.612904" elapsed="0.332701"/>
+</kw>
+<status status="PASS" start="2026-03-25T14:46:47.787757" elapsed="2.158064"/>
+</kw>
+<kw name="Click profile icon" owner="nav_bar_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-25T14:46:49.947591" level="INFO">Clicks the element 'css=#btn-account'.</msg>
+<arg>selector=${nav_bar_locator.btn_account}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T14:46:49.946981" elapsed="0.177063"/>
+</kw>
+<status status="PASS" start="2026-03-25T14:46:49.946307" elapsed="0.177884"/>
+</kw>
+<kw name="Click sign in" owner="nav_bar_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-25T14:46:50.125870" level="INFO">Clicks the element 'css=[href="/signin"]'.</msg>
+<arg>selector=${nav_bar_locator.btn_signin}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T14:46:50.125272" elapsed="0.095098"/>
+</kw>
+<status status="PASS" start="2026-03-25T14:46:50.124630" elapsed="0.095883"/>
+</kw>
+<kw name="Click create account button" owner="sign_in_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-25T14:46:50.222400" level="INFO">Clicks the element 'css=a:text-is("Create account")'.</msg>
+<arg>selector=${sign_in_locator.btn_create_account}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T14:46:50.221613" elapsed="0.111863"/>
+</kw>
+<status status="PASS" start="2026-03-25T14:46:50.220945" elapsed="0.112664"/>
+</kw>
+<kw name="Input all fill create account" owner="create_account_feature">
+<kw name="Input Full Name" owner="create_account_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-25T14:46:50.336581" level="INFO">Fills the text 'chutikarn Aomsomsuey' in the given field.</msg>
+<arg>${create_account_locator.txt_fullname}</arg>
+<arg>${fullname}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T14:46:50.336112" elapsed="0.015218"/>
+</kw>
+<arg>fullname=${fullname}</arg>
+<status status="PASS" start="2026-03-25T14:46:50.335709" elapsed="0.015801"/>
+</kw>
+<kw name="Input Mobile phone" owner="create_account_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-25T14:46:50.353038" level="INFO">Fills the text '0812345678' in the given field.</msg>
+<arg>${create_account_locator.txt_mobile}</arg>
+<arg>${mobile}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T14:46:50.352281" elapsed="0.014901"/>
+</kw>
+<arg>mobile=${mobile}</arg>
+<status status="PASS" start="2026-03-25T14:46:50.351721" elapsed="0.015623"/>
+</kw>
+<kw name="Input Email" owner="create_account_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-25T14:46:50.368436" level="INFO">Fills the text 'chutikarn.a23@doppiotech.com' in the given field.</msg>
+<arg>${create_account_locator.txt_email}</arg>
+<arg>${email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T14:46:50.367969" elapsed="0.014146"/>
+</kw>
+<arg>email=${email}</arg>
+<status status="PASS" start="2026-03-25T14:46:50.367510" elapsed="0.015105"/>
+</kw>
+<kw name="Input Password" owner="create_account_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-25T14:46:50.384895" level="INFO">Fills the text 'Noey1234' in the given field.</msg>
+<arg>${create_account_locator.txt_password}</arg>
+<arg>${password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T14:46:50.384154" elapsed="0.014875"/>
+</kw>
+<arg>password=${password}</arg>
+<status status="PASS" start="2026-03-25T14:46:50.383123" elapsed="0.016045"/>
+</kw>
+<kw name="Input Confirm Password" owner="create_account_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-25T14:46:50.400486" level="INFO">Fills the text 'Noey1234' in the given field.</msg>
+<arg>selector=${create_account_locator.txt_confirm_password}</arg>
+<arg>txt=${confirmpassword}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T14:46:50.399942" elapsed="0.010239"/>
+</kw>
+<arg>confirmpassword=${confirmpassword}</arg>
+<status status="PASS" start="2026-03-25T14:46:50.399347" elapsed="0.011010"/>
+</kw>
+<arg>fullname=${TC_001.valid_fullname}</arg>
+<arg>mobile=${TC_001.valid_mobile}</arg>
+<arg>email=${TC_001.valid_email}</arg>
+<arg>password=${TC_001.valid_pwd}</arg>
+<arg>confirmpassword=${TC_001.valid_confirmpwd}</arg>
+<doc>input fullname,phone number,email,password,confirm password</doc>
+<status status="PASS" start="2026-03-25T14:46:50.334067" elapsed="0.076368"/>
+</kw>
+<kw name="Click create account" owner="create_account_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-25T14:46:50.412335" level="INFO">Clicks the element 'css=#btn-signup'.</msg>
+<arg>${create_account_locator.btn_create_account}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-25T14:46:50.411650" elapsed="0.038310"/>
+</kw>
+<status status="PASS" start="2026-03-25T14:46:50.410908" elapsed="0.039200"/>
+</kw>
+<kw name="Verify User logged in" owner="create_account_page">
+<kw name="Replace String" owner="String">
+<msg time="2026-03-25T14:46:50.452206" level="INFO">${locator} = css=#btn-account span:text-is("chutikarn.a23@doppiotech.com")</msg>
+<var>${locator}</var>
+<arg>string=${create_account_locator.lbl_verify_account}</arg>
+<arg>search_for=***email***</arg>
+<arg>replace_with=${verifyemail}</arg>
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<status status="PASS" start="2026-03-25T14:46:50.451630" elapsed="0.000800"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-25T14:46:50.682097" level="INFO">Waited for Element with selector css=#btn-account span:text-is("chutikarn.a23@doppiotech.com") at state visible</msg>
+<arg>selector=${locator}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-25T14:46:50.452657" elapsed="0.229580"/>
+</kw>
+<arg>verifyemail=${TC_001.valid_email}</arg>
+<status status="PASS" start="2026-03-25T14:46:50.450554" elapsed="0.231774"/>
+</kw>
+<msg time="2026-03-25T14:46:50.701362" level="INFO">Switching context to context=4694697b-a574-41f4-b530-f005f64a9d47 in CURRENT</msg>
+<msg time="2026-03-25T14:46:50.714064" level="INFO">Successfully changed active context: context=4694697b-a574-41f4-b530-f005f64a9d47</msg>
+<msg time="2026-03-25T14:46:50.764814" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-03-25T14:46:47.786879" elapsed="2.895715"/>
+</test>
+<status status="PASS" start="2026-03-25T14:46:47.544929" elapsed="3.222122"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TC 001" id="s1" pass="1" fail="0" skip="0">TC 001</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

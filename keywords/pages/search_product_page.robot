@@ -4,10 +4,10 @@ Search product
     Browser.Fill text       ${search_product_locator.txt_search_product}         ${product} 
 
 Click search button
-    Browser.Click       ${search_product_locator.bnt_search_product}
+    Browser.Click       ${search_product_locator.btn_search_product}
 
 Click view product
-    Browser.Click       ${search_product_locator.bnt_select_product} 
+    Browser.Click       ${search_product_locator.btn_select_product} 
 
 Check and increase quantity 
     # Wait For Elements State    css=[data-testid="productdetail-stock"]    visible    timeout=30000
@@ -18,11 +18,11 @@ Check and increase quantity
 
     IF    ${available} <= 3500
         FOR    ${i}    IN RANGE    4
-            Click    ${search_product_locator.bnt_increase_quantity}
+            Click    ${search_product_locator.btn_increase_quantity}
         END
     ELSE
         FOR    ${i}    IN RANGE    2
-            Click    ${search_product_locator.bnt_increase_quantity}
+            Click    ${search_product_locator.btn_increase_quantity}
         END
     END
 

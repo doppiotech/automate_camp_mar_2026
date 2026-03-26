@@ -1,10 +1,10 @@
 noey2
+Aung2
 noey
 Aunggg
 Fah
 Kong
 Arm
-Fah
 mon
 kaew
 Kik2026

@@ -1,7 +1,7 @@
 *** Keywords ***
 Open Local Website
-    New Browser    chromium    headless=FALSE
-    New Page       ${URL}
+    Browser.New browser    chromium    headless=FALSE
+    Browser.New page       ${URL}
 
 Generate random email
     ${random_email}     String.Generate random string

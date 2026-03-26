@@ -17,9 +17,10 @@ Basic Keywords 2 (part1)
     ...     confirm_password=${Testcase_01.confirm_password}
     create_account_page.Click at Create Account
     sleep   1s
-    Search Product              product=${Testcase_01.product}
-    Click search button
-    Click View Product
-    Check and increase quantity    
-    Verify product title       ${Testcase_01.product}
-    Verify available amount    
+    search_product_page.Search product              product=${Testcase_01.product}
+    search_product_page.Click search button
+    search_product_page.Click view product
+    search_product_page.Check and increase quantity    
+    search_product_page.Verify product title       ${Testcase_01.product}
+    search_product_page.Verify available amount    
+    search_product_page.Verify total price          ${Testcase_01.total}

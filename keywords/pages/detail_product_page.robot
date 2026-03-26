@@ -19,7 +19,10 @@ Adjust product quantity
     END
 
 Verify product name
-    Browser.Wait for elements state    ${detail_product_locator.txt_name_product}
+    [Arguments]    ${product}
+    ${product_locator}    String.Replace string    string=${detail_product_locator.txt_name_product}    search_for=***product_name***    replace_with=${product}
+    Browser.Wait for elements state    ${product_locator}
+    # Browser.Wait for elements state    ${detail_product_locator.txt_name_product}
     # [Arguments]    ${product_name}
     # ${text}=    Get Text    css=h1:text-is("Ceramic Mug")  
     # ${productname}    String.Fetch From Left    ${text}     \n
@@ -32,7 +35,7 @@ Verify avaliable amount
     BuiltIn.Should be true    ${avilable_convert} < 3500  
 
 Verify total price
-    ${price_text}=    Get text    ${detail_product_locator.txt_total_price}
+    ${price_text}=    Browser.Get text    ${detail_product_locator.txt_total_price}
     ${price}    String.Replace string    ${price_text}    \xa0    ${SPACE}
     ${price_convert}    String.Fetch from right    ${price}     ${SPACE} 
     # ${price_convert}=    Convert To Integer    ${price_convert}

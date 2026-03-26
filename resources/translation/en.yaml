@@ -1,2 +1,4 @@
 translation:
  btn_create_account: Create account
+ txt_detail_total: Total (incl. VAT)
+ txt_detail_currency: THB

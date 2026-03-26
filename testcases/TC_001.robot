@@ -23,8 +23,7 @@ TC001 - Register
     search_product_page.Click search icon
     search_product_page.Click view detail product
     detail_product_page.Adjust product quantity
-    # Debug
-    detail_product_page.Verify product name
+    detail_product_page.Verify product name     product=${TC_001.product_name}
     detail_product_page.Verify avaliable amount
     detail_product_page.Verify total price
 

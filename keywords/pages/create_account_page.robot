@@ -7,6 +7,6 @@ Input phone number
     [Arguments]     ${phone_number}
     Browser.Fill text           selector=${create_account_locator.txt_phone_number}        txt=${phone_number}
 
-Input email
+Input email Aoey
     [Arguments]     ${email}
     Browser.Fill text           selector=${create_account_locator.txt_email}           txt=${email}

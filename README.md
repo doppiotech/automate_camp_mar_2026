@@ -1,4 +1,3 @@
-Aoey
 Kong2
 Aung2
 noey

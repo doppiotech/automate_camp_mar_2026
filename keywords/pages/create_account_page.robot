@@ -8,6 +8,6 @@ Input phone number
     Browser.Fill text           selector=${create_account_locator.txt_phone_number}        txt=${phone_number}
 
 Input email fah
-        [Arguments]     ${email}    
+    [Arguments]     ${email}    
     Browser.Fill text           selector=${create_account_locator.txt_email}           txt=${email}
  

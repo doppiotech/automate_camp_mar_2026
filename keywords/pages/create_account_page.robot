@@ -9,4 +9,4 @@ Input phone number
 
 Input email kab
     [Arguments]     ${email}
-    Browser.Fill text           selector=${create_account_locator.txt_email}            txt=${email}
+    Browser.Fill text           selector=${create_account_locator.txt_email}           txt=${email}

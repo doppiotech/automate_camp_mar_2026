@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.11.13 on darwin)" generated="2026-03-26T15:20:07.767114" rpa="false" schemaversion="5">
+<suite id="s1" name="TC 001" source="/Users/Kongphop-Doppio/Desktop/Doppio/Traning2026/Automation/automate_camp_mar_2026/TC_001.robot">
+<test id="s1-t1" name="Locator Assignment Demo_2" line="15">
+<kw name="Open training website">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-26T15:20:09.326560" level="INFO">{"browser": "chromium", "headless": false, "args": ["--start-maximized"], "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/Kongphop-Doppio/Desktop/Doppio/Traning2026/Automation/automate_camp_mar_2026/browser/traces/temp/c6be1d38-be53-493c-ac4a-df88555c40a9"}</msg>
+<msg time="2026-03-26T15:20:09.386291" level="INFO">Starting Browser process /Users/Kongphop-Doppio/.pyenv/versions/3.11.13/lib/python3.11/site-packages/Browser/wrapper/index.js using at 127.0.0.1:63978</msg>
+<msg time="2026-03-26T15:20:17.936055" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"args":["--start-maximized"],"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/Kongphop-Doppio/Desktop/Doppio/Traning2026/Automation/automate_camp_mar_2026/browser/traces/temp/c6be1d38-be53-493c-ac4a-df88555c40a9"}</msg>
+<arg>headless=${FALSE}</arg>
+<arg>args=["--start-maximized"]</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-26T15:20:09.325104" elapsed="8.613568"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-03-26T15:20:17.949071" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": null
+}</msg>
+<msg time="2026-03-26T15:20:17.981949" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-26T15:20:17.982042" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': None}</msg>
+<arg>viewport=${NONE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-03-26T15:20:17.941239" elapsed="0.040907"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-26T15:20:19.009277" level="INFO">Successfully initialized new page object and opened url: http://192.8.8.124:8080</msg>
+<arg>url=${url}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-26T15:20:17.982385" elapsed="1.028137"/>
+</kw>
+<status status="PASS" start="2026-03-26T15:20:09.324126" elapsed="9.687031"/>
+</kw>
+<msg time="2026-03-26T15:20:19.386241" level="INFO">Switching context to context=4efc7a68-6a60-41ac-9172-ab71a44a8c4a in CURRENT</msg>
+<msg time="2026-03-26T15:20:19.422452" level="INFO">Successfully changed active context: context=4efc7a68-6a60-41ac-9172-ab71a44a8c4a</msg>
+<msg time="2026-03-26T15:20:19.469400" level="INFO">Successfully closed Context</msg>
+<tag>css_test_camp</tag>
+<status status="PASS" start="2026-03-26T15:20:09.322839" elapsed="9.691185"/>
+</test>
+<status status="PASS" start="2026-03-26T15:20:07.769976" elapsed="11.700662"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">css_test_camp</stat>
+</tag>
+<suite>
+<stat name="TC 001" id="s1" pass="1" fail="0" skip="0">TC 001</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
